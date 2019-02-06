@@ -1,6 +1,7 @@
 {
   "name": "react-bind-component",
-  "description": "Create type safe HOCs that partially apply components",
+  "description": "Type safe Function.prototype.bind for React components",
+  "keywords": ["react", "bind", "typescript", "functional-programming"],
   "version": "1.0.3",
   "main": "dist/index",
   "types": "dist/index",
