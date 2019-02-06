@@ -1,8 +1,13 @@
 {
   "name": "react-bind-component",
   "description": "Type safe Function.prototype.bind for React components",
-  "keywords": ["react", "bind", "typescript", "functional-programming"],
-  "version": "1.0.3",
+  "keywords": [
+    "react",
+    "bind",
+    "typescript",
+    "functional-programming"
+  ],
+  "version": "1.0.4",
   "main": "dist/index",
   "types": "dist/index",
   "repository": {
