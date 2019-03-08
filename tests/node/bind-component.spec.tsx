@@ -1,7 +1,7 @@
 import React from 'react';
+import createReactMock from 'react-mock-component';
 import { $render, describe, expect, it } from './suite';
 import bindComponent from '../../src/bind-component';
-import { createReactStub } from 'react-mock-component';
 
 interface FooProps {
   foo: number;
@@ -10,7 +10,7 @@ interface FooProps {
 
 describe('bindComponent', () => {
   it('should bind props', () => {
-    const Bar = createReactStub();
+    const Bar = createReactMock();
     const Foo = (props: FooProps) => <Bar {...props} />;
 
     const BoundFoo = bindComponent(Foo, {
