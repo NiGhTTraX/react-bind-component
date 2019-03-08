@@ -19,9 +19,9 @@ describe('bindComponent', () => {
 
     $render(<BoundFoo bar={2} />);
 
-    expect(Bar.renderedWith({
+    expect(Bar).to.have.been.renderedWith({
       foo: 1,
       bar: 2
-    })).to.be.true;
+    });
   });
 });

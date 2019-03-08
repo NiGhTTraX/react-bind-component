@@ -1,7 +1,8 @@
 import $ from 'jquery';
 import ReactDOM from 'react-dom';
 import { ReactElement } from 'react';
-import { expect } from 'chai';
+import chai, { expect } from 'chai';
+import chaiReactMock from 'chai-react-mock';
 import { waitForElement } from 'dom-testing-library';
 import {
   runnerAfterEach,
@@ -10,6 +11,7 @@ import {
   runnerIt
 } from '../mocha-runner';
 
+chai.use(chaiReactMock);
 export { expect };
 
 let componentContainer: HTMLDivElement;
