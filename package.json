@@ -77,7 +77,7 @@
     "react-dom": "~16.8.0",
     "react-mock-component": "~1.0.1",
     "ts-node": "~8.0.0",
-    "typescript": "~3.3.0",
+    "typescript": "~3.4.0",
     "typescript-eslint-parser": "~21.0.0"
   }
 }
