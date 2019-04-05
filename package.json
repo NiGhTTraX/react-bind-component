@@ -64,7 +64,7 @@
     "chai": "~4.2.0",
     "chai-react-mock": "~1.0.2",
     "codecov": "~3.3.0",
-    "dom-testing-library": "~3.18.0",
+    "dom-testing-library": "~3.19.0",
     "eslint": "~5.16.0",
     "eslint-plugin-react": "~7.12.0",
     "husky": "~1.3.0",
