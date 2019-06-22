@@ -1,7 +1,7 @@
 > Type safe `Function.prototype.bind` for React components
 
 [![Build Status](https://travis-ci.com/NiGhTTraX/react-bind-component.svg?branch=master)](https://travis-ci.com/NiGhTTraX/react-bind-component)
-[![codecov](https://codecov.io/gh/NiGhTTraX/react-bind-component/branch/master/graph/badge.svg)](https://codecov.io/gh/NiGhTTraX/react-bind-component)
+[![codecov](https://codecov.io/gh/NiGhTTraX/react-bind-component/branch/master/graph/badge.svg)](https://codecov.io/gh/NiGhTTraX/react-bind-component) ![npm type definitions](https://img.shields.io/npm/types/react-bind-component.svg)
 
 ----
 
