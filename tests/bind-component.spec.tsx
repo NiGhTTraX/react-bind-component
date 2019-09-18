@@ -1,7 +1,9 @@
 import React from 'react';
+import { $render } from '@tdd-buffet/react';
+import { describe, it } from 'tdd-buffet/suite/node';
+import { expect } from 'tdd-buffet/expect/chai';
 import createReactMock from 'react-mock-component';
-import { $render, describe, expect, it } from './suite';
-import bindComponent from '../../src/bind-component';
+import bindComponent from '../src';
 
 interface FooProps {
   foo: number;
@@ -19,9 +21,9 @@ describe('bindComponent', () => {
 
     $render(<BoundFoo bar={2} />);
 
-    expect(Bar).to.have.been.renderedWith({
+    expect(Bar.renderedWith({
       foo: 1,
       bar: 2
-    });
+    })).to.be.true;
   });
 });
