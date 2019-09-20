@@ -51,7 +51,7 @@
     "@typescript-eslint/eslint-plugin": "~2.3.0",
     "babel-plugin-istanbul": "~5.2.0",
     "chai-react-mock": "~1.0.2",
-    "codecov": "~3.5.0",
+    "codecov": "~3.6.0",
     "eslint": "~6.4.0",
     "eslint-plugin-react": "~7.14.0",
     "husky": "~3.0.0",
