@@ -48,7 +48,7 @@
     "@types/node": "~10.12.2",
     "@types/react": "~16.9.0",
     "@types/react-dom": "~16.9.0",
-    "@typescript-eslint/eslint-plugin": "~2.14.0",
+    "@typescript-eslint/eslint-plugin": "~2.15.0",
     "babel-plugin-istanbul": "~6.0.0",
     "chai-react-mock": "~2.0.0",
     "codecov": "~3.6.0",
