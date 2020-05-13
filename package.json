@@ -53,7 +53,7 @@
     "chai-react-mock": "~2.0.0",
     "codecov": "~3.6.0",
     "eslint": "~6.8.0",
-    "eslint-plugin-react": "~7.19.0",
+    "eslint-plugin-react": "~7.20.0",
     "husky": "~4.2.0",
     "lint-staged": "~10.2.0",
     "react": "~16.13.0",
