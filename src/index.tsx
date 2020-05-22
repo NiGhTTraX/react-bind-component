@@ -1,5 +1,5 @@
 // eslint-disable-next-line space-infix-ops
-import React, { Component, ComponentType } from 'react';
+import React, { Component, ComponentType } from "react";
 
 export type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 
@@ -17,11 +17,13 @@ export default function bindComponent<T, K extends keyof T>(
   boundProps: Pick<T, K>
 ): ComponentType<Omit<T, K>> {
   return class BoundComponent extends Component<Omit<T, K>> {
+    // eslint-disable-next-line react/static-property-placement
     static displayName = `bind(${C.displayName || C.name})`;
 
     render() {
       const props = { ...this.props, ...boundProps } as T;
 
+      // eslint-disable-next-line react/jsx-props-no-spreading
       return <C {...props} />;
     }
   };
