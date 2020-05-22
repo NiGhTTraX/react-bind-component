@@ -45,6 +45,7 @@
   "devDependencies": {
     "@nighttrax/eslint-config-tsx": "~6.1.0",
     "@tdd-buffet/react": "~1.0.0",
+    "@tdd-buffet/tsconfig": "~1.0.0",
     "@types/node": "~10.12.2",
     "@types/react": "~16.9.0",
     "@types/react-dom": "~16.9.0",
@@ -57,7 +58,7 @@
     "react": "~16.13.0",
     "react-dom": "~16.13.0",
     "react-mock-component": "~2.3.0",
-    "tdd-buffet": "~0.16.0",
+    "tdd-buffet": "~1.0.1",
     "typescript": "~3.9.0"
   }
 }
