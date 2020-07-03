@@ -52,7 +52,7 @@
     "babel-plugin-istanbul": "~6.0.0",
     "chai-react-mock": "~2.0.0",
     "codecov": "~3.7.0",
-    "eslint": "~7.3.0",
+    "eslint": "~7.4.0",
     "husky": "~4.2.0",
     "lint-staged": "~10.2.0",
     "react": "~16.13.0",
