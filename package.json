@@ -43,7 +43,7 @@
     "react": "^16"
   },
   "devDependencies": {
-    "@nighttrax/eslint-config-tsx": "~6.1.0",
+    "@nighttrax/eslint-config-tsx": "~6.2.0",
     "@tdd-buffet/react": "~1.1.0",
     "@tdd-buffet/tsconfig": "~1.0.0",
     "@types/node": "~10.12.2",
