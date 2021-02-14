@@ -27,15 +27,6 @@
     "test:coverage": "tdd-buffet test --coverage",
     "report-coverage": "codecov"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.tsx?": "eslint",
-    "*.js": "eslint"
-  },
   "author": "Andrei Picus",
   "license": "MIT",
   "dependencies": {},
@@ -53,8 +44,6 @@
     "chai-react-mock": "~2.0.0",
     "codecov": "~3.7.0",
     "eslint": "~7.7.0",
-    "husky": "~4.2.0",
-    "lint-staged": "~10.2.0",
     "react": "~16.13.0",
     "react-dom": "~16.13.0",
     "react-mock-component": "~2.3.0",
